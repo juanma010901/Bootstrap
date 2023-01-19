@@ -1,0 +1,204 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clase 16 (Tooltip)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo"> Space travel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviertete en voluntario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Main -->
+    <section id="main">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause=“false”>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/img1.jpg" class="d-block w-100" alt="Viaje 1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/img2.jpg" class="d-block w-100" alt="Viaje 2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/img3.jpg" class="d-block w-100" alt="Viaje 3">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-center text-end">
+                  <h1>Space Travel Agency</h1>
+                  <p class="d-none d-md-block">¡Prepárate para la aventura de tu vida con nuestra agencia de viajes espaciales! Ofrecemos vuelos de turismo a destinos fuera de este mundo, incluyendo viajes a la Luna y Marte. Con nuestros cohetes de última generación y nuestro equipo de astronautas profesionales, estarás en buenas manos durante tu viaje. Además, ofrecemos paquetes personalizados para asegurar que tu experiencia sea única e inolvidable. ¡No pierdas esta oportunidad de explorar el universo! ¡Reserva tu viaje espacial hoy mismo!</p>
+                  <a href="#" class="btn btn-outline-light">Destinos</a>
+                  <button type="button" name="buttom" class="btn btn-new">Comprar Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main -->
+
+    <!-- Naves -->
+    <section id="naves" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-upercase">
+            <small>Conoce nuestras</small>
+            <h2>Naves</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="assets/naves/nav1.jpg" class="card-img-top" alt="Nave 1">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Star Explorer</h5>
+                <div class="Badgets mb-2">
+                  <span class="badge bg-warning">Veloz</span>
+                  <span class="badge bg-info">Confort</span>
+                </div>
+                <p class="card-text">Es una nave espacial de última generación con un diseño aerodinámico y tecnología de vanguardia. Con capacidad para albergar a un pequeño grupo de pasajeros, ofrece vistas impresionantes de la Tierra y del espacio profundo a través de sus ventanas panorámicas. Además cuenta con comodidades de primera clase como asientos cómodos y servicio de bordo excepcional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="assets/naves/nav2.jpg" class="card-img-top" alt="Nave 2">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Galaxy Voyager</h5>
+                <div class="Badgets mb-2">
+                  <span class="badge bg-primary">Entretenimiento</span>
+                  <span class="badge bg-dark">Seguridad</span>
+                </div>
+                <p class="card-text">Es una nave espacial diseñada para viajar a los rincones más lejanos del universo. Con un sistema de propulsión de última generación, los pasajeros podrán experimentar viajes interestelares en tiempo récord, mientras disfrutan de la vista de estrellas y planetas desconocidos a través de sus ventanas de observación. Además cuenta con una sala de entretenimiento y cómodos camarotes para una experiencia cómoda y relajada.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="assets/naves/nav3.jpg" class="card-img-top" alt="Nave 3">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Galactic Odyssey</h5>
+                <div class="Badgets mb-2">
+                  <span class="badge bg-success">Innovación</span>
+                  <span class="badge bg-secondary">Exclusividad</span>
+                </div>
+                <p class="card-text">Es una nave espacial futurista con un diseño elegante y tecnología de vanguardia. Con una capacidad para albergar a varios pasajeros, ofrece vistas impresionantes del espacio profundo a través de sus ventanas panorámicas, así como una amplia variedad de comodidades y servicios de bordo para una experiencia de viaje inolvidable. Además cuenta con un sistema de realidad virtual que permite a los pasajeros experimentar la sensación de estar en un planeta desconocido.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Naves -->
+
+    <!-- Lugar y Fecha -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-12 col-lg-6 px-0 pb-2">
+            <img src="assets/images/pista.jpg" alt="Pista">
+          </div>
+          <div class="col col-12 col-lg-6 pt-2 pb-2">
+            <h2>Próximo Despegue</h2>
+            <h3>Xantheopia - Enero 2100</h3>
+            <p>Xantheopia es una ciudad futurista, que te sorprenderá con su arquitectura impresionante y su avanzada tecnología. Sus edificios están construidos con materiales de vanguardia y cuentan con una estética futurista que los hace únicos en su clase. La ciudad cuenta con una red de transporte automatizado que te llevará a cualquier lugar de manera rápida y segura. Además, Xantheopia cuenta con una gran variedad de parques y jardines que te permitirán disfrutar de la naturaleza en plena ciudad. La vida nocturna de Xantheopia es algo que no te puedes perder. Los bares y restaurantes ofrecen una experiencia culinaria única y los clubs de música te dejarán con la boca abierta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lugar y Fecha -->
+
+    <!-- Conviértete en speaker -->
+    <section id="conviertete-en-orador" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Conviertete en un</small>
+            <h2>VIAJERO ESPACIAL</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            Anótate como <abbr title="Te pagaremos por tus servicios" data-bs-toggle="tooltip">voluntario</abbr> para viajar al espacio. Cuéntanos a dónde quisieras ir!
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form>
+              <div class="row">
+                <div class="form-label col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="form-label col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col form-label">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="A dónde te gustaría ir y por qué?"></textarea>
+                  <small class="form-text text-muted">Recuerda incluir tus motivaciones</small>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="d-grid col-10 col-md-8 col-lg-6 mx-auto">
+                    <button class="btn btn-new">Enviar</button>
+                  </div>
+
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /Conviértete en speaker -->
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg"><a href="#">Preguntas Frecuentes</a></div>
+          <div class="col-12 col-lg"><a href="#">Contáctanos</a></div>
+          <div class="col-12 col-lg"><a href="#">Prensa</a></div>
+          <div class="col-12 col-lg"><a href="#">Terminos y Condiciones</a></div>
+          <div class="col-12 col-lg"><a href="#">Privacidad</a></div>
+          <div class="col-12 col-lg"><a href="#">Calendario</a></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
