@@ -1,3 +1,5 @@
+![Visitantes](https://visitor-badge.glitch.me/badge?page_id=juanma010901.Bootstrap&left_text=Visitantes)
+
 # Bootstrap
 
 Para el desarrollo del proyecto se usaron diferentes elementos del framework CSS Bootstrap, como se explicarán a continuación: 📃
@@ -30,7 +32,5 @@ Para el desarrollo del proyecto se usaron diferentes elementos del framework CSS
 ## Tecnologías Utilizadas 💻
 
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-</br>
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/multipage/)
-</br>
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://drafts.csswg.org/)
